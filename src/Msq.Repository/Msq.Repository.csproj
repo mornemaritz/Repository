@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Summary>C# Repository Pattern abstraction.</Summary>
+    <Description>
+    A C# abstraction of the repository pattern that defines a specification based querying paradigm.
+    </Description>  
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Msq.Repository</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>1.0.0</Version>
+    <Authors>Morne Maritz</Authors>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/mornemaritz/repository</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Msq.Specification" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
